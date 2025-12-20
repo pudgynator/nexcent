@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.section {
+    padding: 20px 0;
+}
+.container {
+    width: 100%;
+    max-width: 1288px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.header {
+    padding: 25px 100;
+    width: 100%;
+}
+
+.header__menu {
+    display: flex;
+    gap: 40px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 623px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav ul {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.hero-section {
+
+}
