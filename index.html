@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Forma studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
@@ -46,24 +47,296 @@
                 </a>
             </div>
         </section>
-        <section class="-section section">
+        <section class="services-section section">
             <div class="container">
-                <h1 class="title"></h1>
+                <h2 class="services-section__title title">
+                    Наші послуги
+                </h2>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <p class="services__item-title">Архітектурне проєктування</p>
+                        <p class="services__item-text">Спроєктуємо Ваш дім особисто для Вас з урахуванням ергономіки і краси, використовуючи дизайнерське бачення простору.</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__item-title">Дизайн інтер’єру</p>
+                        <p class="services__item-text">Cпроектуємо ексклюзивний дизайн інтер'єру з урахуванням ваших побажань і наших завдань.</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__item-title">авторський нагляд</p>
+                        <p class="services__item-text">Контролюємо реалізацію своїх проєктів від створення до втілення в життя.</p>
+                    </li>
+                    <li class="services__item">
+                        <p class="services__item-title">Проєкти під ключ</p>
+                        <p class="services__item-text">Виконуємо роботи від розробки концепції до здачі в експлуатацію, ви ні про що не думаєте</p>
+                    </li>
+                </ul>
             </div>
         </section>
-        <section class="-section section">
+        <section class="projects-section section">
             <div class="container">
+                <h2 class="projects-section__title title">
+                    наші проєкти
+                </h2>
+                <div class="projects__slider swiper">
+                    
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-1.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Квартира площею 55,6 м2
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для молодої пари юристів
+                            </p>
+                            <p class="projects__item-text">
+                                Основною ідеєю цього інтер'єру є створення світлого, легкого і затишного простору. В інтер'єрі використані теплі кольори і м'які лінії, що сприяють відчуттю спокою та гармонії. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
 
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-2.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Будинок
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для сім’ї лікарів
+                            </p>
+                            <p class="projects__item-text">
+                                Комфортний простір для господарів забезпечує правильна організація та планування будинку. Відкрита тераса поєднує між собою зони басейну, кухні та вітальні. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-3.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                заміський Будинок
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для  сім’ї бізнесменів
+                            </p>
+                            <p class="projects__item-text">
+                                В ході створення проекту було розроблено планування, яке передбачає зону кухні-вітальні з каміном по центру, який слугує зонуючою конструкцією. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-4.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Квартира площею 110 м2
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для молодої сім’ї
+                            </p>
+                            <p class="projects__item-text">
+                                Мінімалістичне монохромне житло, акцент на простоті, прямих лініях та мінімальному використанні кольорів. У просторі переважають відтінки сірого та чорного.
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-1.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Квартира площею 55,6 м2
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для молодої пари юристів
+                            </p>
+                            <p class="projects__item-text">
+                                Основною ідеєю цього інтер'єру є створення світлого, легкого і затишного простору. В інтер'єрі використані теплі кольори і м'які лінії, що сприяють відчуттю спокою та гармонії. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-2.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Будинок
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для сім’ї лікарів
+                            </p>
+                            <p class="projects__item-text">
+                                Комфортний простір для господарів забезпечує правильна організація та планування будинку. Відкрита тераса поєднує між собою зони басейну, кухні та вітальні. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-3.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                заміський Будинок
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для  сім’ї бізнесменів
+                            </p>
+                            <p class="projects__item-text">
+                                В ході створення проекту було розроблено планування, яке передбачає зону кухні-вітальні з каміном по центру, який слугує зонуючою конструкцією. 
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                      <div class="swiper-slide">
+                        <div class="projects__item">
+                            <img class="projects__item-img" src="./images/slide-4.jpg" alt="">
+                            <h3 class="projects__item-title">
+                                Квартира площею 110 м2
+                            </h3>
+                            <p class="projects__item-descr">
+                                Для молодої сім’ї
+                            </p>
+                            <p class="projects__item-text">
+                                Мінімалістичне монохромне житло, акцент на простоті, прямих лініях та мінімальному використанні кольорів. У просторі переважають відтінки сірого та чорного.
+                            </p>
+                            <a class="projects__item-btn" href="#">
+                                детальніше
+                            </a>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="projects__arrow projects__arrow-left">
+                        <img src="./images/arrow-prev.svg" alt="arrow left">
+                    </div>
+                    <div class="projects__arrow projects__arrow-right">
+                        <img src="./images/arrow-next.svg" alt="arrow right">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="-section section" id="-section">
+        <section class="steps-section">
             <div class="container">
-
+                <div class="steps__container">
+                    <div class="steps__content">
+                        <h2 class="steps-section__title title">
+                            етапи роботи від заявки до готового об’єкта
+                        </h2>
+                        <ol class="steps__list">
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Отримуємо вашу заявку
+                                </p>
+                                <p class="steps__item-text">
+                                    Зателефонуйте нам або надішліть повідомлення на сайті.
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Знайомимося
+                                </p>
+                                <p class="steps__item-text">
+                                    На першій зустрічі ми обговоримо всі подробиці вашого завдання. 
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Виїзджаємо на об’єкт
+                                </p>
+                                <p class="steps__item-text">
+                                    Зустрічаємося на об'єкті, щоб провести необхідні заміри, фотофіксацію та заповнити детальне техзавдання. 
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Обговорюємо та узгоджуємо загальний бюджет проєкту
+                                </p>
+                                <p class="steps__item-text">
+                                    Витрати на «наповнення» інтер'єру, оздоблювальні матеріали, меблі та обладнання. 
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Визначаємо планувальне рішення
+                                </p>
+                                <p class="steps__item-text">
+                                    На цьому етапі ми пропонуємо кілька варіантів зонування, розміщення меблів і обладнання. 
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Розробляємо стильову концепцію
+                                </p>
+                                <p class="steps__item-text">
+                                    На підставі ваших смаків, з урахуванням модних тенденцій і напрямків, визначається яким буде стиль майбутнього інтер'єру.
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Готуємо робочу документацію
+                                </p>
+                                <p class="steps__item-text">
+                                    На наступному етапі ми готуємо всі необхідні робочі креслення. 
+                                </p>
+                            </li>
+                            <li class="steps__item">
+                                <p class="steps__item-title">
+                                    Комплектація об'єкта
+                                </p>
+                                <p class="steps__item-text">
+                                    На завершальному етапі комплектації ми складаємо специфікації меблів, світильників і предметів інтер'єру.
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="steps__img">
+                        <img src="./images/steps-bg.jpg" alt="" class="steps-img">
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="-section section">
+        <section class="catalogs-section section">
             <div class="container">
-
+                <h2 class="catalogs-section__title title">
+                    Отримайте каталог наших проєктів
+                </h2>
+                <div class="catalogs-section__container">
+                    <img src="./images/catalog-img.jpg" alt="" class="catalog-img">
+                    <div class="catalogs__form-content">
+                        <h3 class="catalogs__form-title">
+                            Залиште  ваш E-mail, щоб отримати каталог наших проєктів 
+                        </h3>
+                        <p class="catalogs__form-text">
+                            Каталог допоможе вам вибрати стиль і продумати планування 
+                        </p>
+                        <form action="" class="catalogs__form">
+                            <input type="email" class="catalogs__form-email" placeholder="Введіть ваш E-mail">
+                            <input type="checkbox" class="catalogs__form-checkbox">Я згоден на обробку персональних даних</input>
+                            <button type="submit" class="catalogs__form-btn">
+                                отримати каталог
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -73,6 +346,7 @@
         </div>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script defer src="./js/script.js"></script>
 </body>
 </html>
