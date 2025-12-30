@@ -236,7 +236,6 @@
         </section>
         <section class="steps-section">
             <div class="container">
-                <div class="steps__container">
                     <div class="steps__content">
                         <h2 class="steps-section__title title">
                             етапи роботи від заявки до готового об’єкта
@@ -308,10 +307,9 @@
                             </li>
                         </ol>
                     </div>
-                    <div class="steps__img">
-                        <img src="./images/steps-bg.jpg" alt="" class="steps-img">
-                    </div>
-                </div>
+            </div>
+            <div class="steps__img">
+                <img src="./images/steps-bg.jpg" alt="steps image">
             </div>
         </section>
         <section class="catalogs-section section">
@@ -320,29 +318,163 @@
                     Отримайте каталог наших проєктів
                 </h2>
                 <div class="catalogs-section__container">
-                    <img src="./images/catalog-img.jpg" alt="" class="catalog-img">
-                    <div class="catalogs__form-content">
+                    <picture class="catalogs__pic">
+                        <source srcset="./images/catalog-img.jpg" type="image/jpg">
+                        <source srcset="./images/catalog-img.webp" type="image/webp">
+                        <img src="./images/catalog-img.avif" alt="catalog image">
+                    </picture>
+
+                    <form class="catalogs__form">
                         <h3 class="catalogs__form-title">
                             Залиште  ваш E-mail, щоб отримати каталог наших проєктів 
                         </h3>
                         <p class="catalogs__form-text">
                             Каталог допоможе вам вибрати стиль і продумати планування 
                         </p>
-                        <form action="" class="catalogs__form">
-                            <input type="email" class="catalogs__form-email" placeholder="Введіть ваш E-mail">
-                            <input type="checkbox" class="catalogs__form-checkbox">Я згоден на обробку персональних даних</input>
-                            <button type="submit" class="catalogs__form-btn">
-                                отримати каталог
-                            </button>
+                        <input type="email" class="catalogs__form-email" placeholder="Введіть ваш E-mail">
+
+                        <label class="catalogs__form-label">
+                            <input type="checkbox" class="catalogs__form-checkbox">
+                            <p class="catalogs__form-label-text">
+                                Я згоден на <a href="#">обробку персональних даних</a>
+                            </p>
+                        </label>
+                        <button type="submit" class="catalogs__form-btn">
+                            отримати каталог
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="gallery-section">
+            <div class="container">
+               <div class="gallery__container">
+                <img src="./images/gallery/gal-1.jpg" alt="">
+                <img src="./images/gallery/gal-2.jpg" alt="">
+                <img src="./images/gallery/gal-3.jpg" alt="">
+                <img src="./images/gallery/gal-4.jpg" alt="">
+                <img src="./images/gallery/gal-5.jpg" alt="">
+                <img src="./images/gallery/gal-6.jpg" alt="">
+                <img src="./images/gallery/gal-7.jpg" alt="">
+                <img src="./images/gallery/gal-8.jpg" alt="">
+               </div> 
+            </div>
+        </section>
+        <section class="contact-section">
+            <div class="container">
+                <div class="contact-section__container">
+                    <div class="contact-section__content">
+                        <h2 class="contact-section__title title">
+                            Залишіть заявку і ми допоможемо Вам з проєктом
+                        </h2>
+                        
+                        <form class="contact-section__form">
+                            <input type="email" placeholder="Введіть ваш E-mail">
+                            <button type="submit" class="form-btn">залишити заявку</button>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
     </main>
+
     <footer class="footer">
         <div class="container">
+            <div class="footer__container">
 
+                <div class="footer__logo">
+                    <a href="/" class="logo-big">
+                        <img src="./images/logo-big.svg" alt="logo Forma studio" class="logo__img">
+                    </a>
+                    <p class="footer__text">
+                        &copy; 2010-2025 Архітектурне бюро
+                    </p>
+                </div>
+
+                <nav class="footer__nav">
+                    <ul class="footer__menu">
+                        <li class="menu__item"><a href="#" class="menu__link">Про студію</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Ціни</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Проєкти</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+                    </ul>
+
+                    <ul class="footer__services">
+                        <li class="footer__item">
+                            <p class="footer__item-title">Архітектурне проєктування</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item-title">Дизайн інтер’єру</p>
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item-title">авторський нагляд</p>
+                
+                        </li>
+                        <li class="footer__item">
+                            <p class="footer__item-title">Проєкти під ключ</p>
+                        </li>
+                    </ul>
+
+                    <address class="footer__address">
+
+                        <ul class="footer__socials">
+                            <li class="socials__item">
+                                <img src="./images/footer-icons/email-icon.svg" alt="email">
+                                <a class="socials__item-link" href="mailto:shopbakery@gmail.com">
+                                    formastudio@gmail.com
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <img src="./images/footer-icons/inst-icon.svg" alt="instagram">
+                                <a class="socials__item-link" target="_blank">
+                                
+                                    formastudio
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <img src="./images/footer-icons/fb-icon.svg" alt="facebook">
+                                <a class="socials__item-link" href="" target="_blank">
+                                 
+                                    forma.studio
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <img src="./images/footer-icons/tg-icon.svg" alt="telegram">
+                                <a class="socials__item-link" href="" target="_blank">
+                                    <!-- <p class="socials__item-text"></p> -->
+                                    @forma.studio
+                                </a>
+                            </li>
+                            <li class="socials__item">
+                                <img src="./images/footer-icons/pin-icon.svg" alt="pinterest">
+                                <a class="socials__item-link" href="" target="_blank">
+                                    forma.studio
+                                </a>
+                            </li>
+                        </ul>
+    
+                        <ul class="footer__address-list">
+                            <li class="footer__address-link">
+                                <img src="./images/footer-icons/address-icon.svg" alt="address">
+                                <a href="https://maps.app.goo.gl/UkiHZAkRFk65KAxy9" target="_blank">
+                                    Київ,<span class="footer__span">вул. Театральна, 14</span> 
+                                </a>
+                            </li>
+                            <li class="footer__address-link">
+                                <img src="./images/footer-icons/phone-icon.svg" alt="phone number">
+                                <a href="tel:+380682554585">
+                                    +38 (068) 255 45 85
+                                </a>
+                            </li>
+                            <li class="footer__address-link">
+                                Час роботи пн-пт з <br>9:00 до 17:00
+                            </li>
+                        </ul>
+                    </address>
+                </nav>
+
+      
+            </div>
         </div>
     </footer>
 
