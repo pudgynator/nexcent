@@ -363,15 +363,17 @@
         <section class="contact-section">
             <div class="container">
                 <div class="contact-section__container">
-                    <div class="contact-section__content">
-                        <h2 class="contact-section__title title">
-                            Залишіть заявку і ми допоможемо Вам з проєктом
-                        </h2>
-                        
-                        <form class="contact-section__form">
-                            <input type="email" placeholder="Введіть ваш E-mail">
-                            <button type="submit" class="form-btn">залишити заявку</button>
-                        </form>
+                    <div class="contact-section__overlay">
+                        <div class="contact-section__content">
+                            <h2 class="contact-section__title title">
+                                Залишіть заявку і ми допоможемо Вам з проєктом
+                            </h2>
+                            
+                            <form class="contact-section__form">
+                                <input type="email" placeholder="Введіть ваш E-mail">
+                                <button type="submit" class="form-btn">залишити заявку</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -386,37 +388,39 @@
                     <a href="/" class="logo-big">
                         <img src="./images/logo-big.svg" alt="logo Forma studio" class="logo__img">
                     </a>
-                    <p class="footer__text">
+                    <p class="footer__copyright">
                         &copy; 2010-2025 Архітектурне бюро
                     </p>
                 </div>
 
-                <nav class="footer__nav">
-                    <ul class="footer__menu">
-                        <li class="menu__item"><a href="#" class="menu__link">Про студію</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Ціни</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Проєкти</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
-                    </ul>
-
-                    <ul class="footer__services">
-                        <li class="footer__item">
-                            <p class="footer__item-title">Архітектурне проєктування</p>
-                        </li>
-                        <li class="footer__item">
-                            <p class="footer__item-title">Дизайн інтер’єру</p>
-                        </li>
-                        <li class="footer__item">
-                            <p class="footer__item-title">авторський нагляд</p>
-                
-                        </li>
-                        <li class="footer__item">
-                            <p class="footer__item-title">Проєкти під ключ</p>
-                        </li>
-                    </ul>
-
+                <div class="footer__content">
+                    <nav class="footer__nav">
+                        <ul class="footer__nav-menu">
+                            <li class="menu__item"><a href="#" class="menu__link">Про студію</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Ціни</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Проєкти</a></li>
+                            <li class="menu__item"><a href="#" class="menu__link">Контакти</a></li>
+                        </ul>
+                    </nav>
+    
+                    <div class="footer__services">
+                        <ul class="footer__services-list">
+                            <li class="footer__services-item">
+                                Архітектурне проєктування
+                            </li>
+                            <li class="footer__services-item">
+                                Дизайн інтер’єру
+                            </li>
+                            <li class="footer__services-item">
+                                авторський нагляд
+                            </li>
+                            <li class="footer__services-item">
+                                Проєкти під ключ
+                            </li>
+                        </ul>
+                    </div>
+    
                     <address class="footer__address">
-
                         <ul class="footer__socials">
                             <li class="socials__item">
                                 <img src="./images/footer-icons/email-icon.svg" alt="email">
@@ -427,21 +431,18 @@
                             <li class="socials__item">
                                 <img src="./images/footer-icons/inst-icon.svg" alt="instagram">
                                 <a class="socials__item-link" target="_blank">
-                                
                                     formastudio
                                 </a>
                             </li>
                             <li class="socials__item">
                                 <img src="./images/footer-icons/fb-icon.svg" alt="facebook">
                                 <a class="socials__item-link" href="" target="_blank">
-                                 
                                     forma.studio
                                 </a>
                             </li>
                             <li class="socials__item">
                                 <img src="./images/footer-icons/tg-icon.svg" alt="telegram">
                                 <a class="socials__item-link" href="" target="_blank">
-                                    <!-- <p class="socials__item-text"></p> -->
                                     @forma.studio
                                 </a>
                             </li>
@@ -455,9 +456,9 @@
     
                         <ul class="footer__address-list">
                             <li class="footer__address-link">
-                                <img src="./images/footer-icons/address-icon.svg" alt="address">
+                                <img src="./images/footer-icons/address-icon.svg" alt="address" class="address-icon">
                                 <a href="https://maps.app.goo.gl/UkiHZAkRFk65KAxy9" target="_blank">
-                                    Київ,<span class="footer__span">вул. Театральна, 14</span> 
+                                    Київ,<br>вул. Театральна, 14
                                 </a>
                             </li>
                             <li class="footer__address-link">
@@ -467,13 +468,13 @@
                                 </a>
                             </li>
                             <li class="footer__address-link">
-                                Час роботи пн-пт з <br>9:00 до 17:00
+                                <span class="footer__address-span">
+                                    Час роботи пн-пт з 9:00 до 17:00
+                                </span>
                             </li>
                         </ul>
                     </address>
-                </nav>
-
-      
+                </div>
             </div>
         </div>
     </footer>
